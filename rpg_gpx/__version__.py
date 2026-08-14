@@ -1,7 +1,7 @@
 __title__ = "rpg_gpx"
 __description__ = "Paket-Fassade fuer rpg_gpx."
 __url__ = "[https://github.com/](https://github.com/)RalfPeter/rpg_gpx"
-__version__ = "2.0"
+__version__ = "3.1"
 __author__ = "RalfPeter"
 __author_email__ = "ralfpeter.bergheim@gmail.com"
 __license__ = "MIT"

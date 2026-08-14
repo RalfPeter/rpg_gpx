@@ -1,23 +1,17 @@
 #!/usr/bin/env python
 # ------------------------------------------------------------------------------
-# 10-08-2026
+# 13-08-2026
 # RalfPeter <ralfpeter.bergheim@gmail.com>
 # https://github.com/RalfPeter/
 #
 # Released under GNU GENERAL PUBLIC LICENSE v3. (Use at your own risk)
 # ------------------------------------------------------------------------------
-#  Programm          : gpx_schema.py
-#  Version           : 2.0
-#  Beschreibung      : Keine Beschreibung verfügbar.
-#  Zeilen            : 145
-#  Abhängigkeiten    : dataclasses, datetime, typing
-#  Klassen           : GeoPoint, GeoPointTime, GeoPointRef, GPXTrackInfo
-# ------------------------------------------------------------------------------
-#  Globale Funktionen:
-#    is_valid_float(float | int | str | Any)              → Prüft, ob der Wert in ein gültiges Float umgewandelt werden kann.
-#    safe_float(float | int | str | Any)                  → Wandelt den Wert sicher in ein Float um.
-# ------------------------------------------------------------------------------
-#  Copyright (C) 2026 <ralfpeter.bergheim@gmail.com>
+#  Programm           : gpx_schema.py
+#  Version            : 2.0
+#  Beschreibung       : Keine Beschreibung verfügbar.
+#  Zeilen             : 145
+#  Abhängigkeiten     : dataclasses, datetime, typing
+#  Klassen            : GPXTrackInfo, GeoPoint, GeoPointRef, GeoPointTime
 # ------------------------------------------------------------------------------
 
 from __future__ import annotations

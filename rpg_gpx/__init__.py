@@ -1,4 +1,4 @@
-"""Paket-Fassade fuer rpg_gpx."""
+"""Inhaltsübersicht für das Modul rpg_gpx."""
 
 from .gpx_const import GPX_NAMESPACE, GPX_NAMESPACE_GARMIN, GPX_NAMESPACES, XPATH_GARMIN_RPT, TAG_TRK, TAG_RTE, TAG_TRKPT, TAG_RTEPT, TAG_RPT, TAG_ELE, TAG_TIME
 from .gpx_io import GPXDataLoader

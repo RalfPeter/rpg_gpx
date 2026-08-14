@@ -1,22 +1,16 @@
 #!/usr/bin/env python
 # ------------------------------------------------------------------------------
-# 10-08-2026
+# 13-08-2026
 # RalfPeter <ralfpeter.bergheim@gmail.com>
 # https://github.com/RalfPeter/
 #
 # Released under GNU GENERAL PUBLIC LICENSE v3. (Use at your own risk)
 # ------------------------------------------------------------------------------
-#  Programm          : gpx_utils.py
-#  Version           : 2.0
-#  Beschreibung      : Keine Beschreibung verfügbar.
-#  Zeilen            : 180
-#  Abhängigkeiten    : math
-# ------------------------------------------------------------------------------
-#  Globale Funktionen:
-#    haversine(float, float, float, float)                → Berechnet die Großkreisentfernung (Luftlinie) zwischen zwei Geopunkten.
-#    haversine_geo(float, float, float, float)            → Berechnet die präzise geodätische Distanz zwischen zwei Punkten auf dem WGS-84 Ellipsoid.
-# ------------------------------------------------------------------------------
-#  Copyright (C) 2026 <ralfpeter.bergheim@gmail.com>
+#  Programm           : gpx_utils.py
+#  Version            : 2.0
+#  Beschreibung       : Keine Beschreibung verfügbar.
+#  Zeilen             : 180
+#  Abhängigkeiten     : math
 # ------------------------------------------------------------------------------
 
 from math import radians, sin, cos, sqrt, atan, atan2, tan

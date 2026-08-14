@@ -1,25 +1,19 @@
 #!/usr/bin/env python
 # ------------------------------------------------------------------------------
-# 10-08-2026
+# 13-08-2026
 # RalfPeter <ralfpeter.bergheim@gmail.com>
 # https://github.com/RalfPeter/
 #
 # Released under GNU GENERAL PUBLIC LICENSE v3. (Use at your own risk)
 # ------------------------------------------------------------------------------
-#  Programm          : gpx_io.py
-#  Version           : 2.0
-#  Beschreibung      : Keine Beschreibung verfügbar.
-#  Zeilen            : 229
-#  Abhängigkeiten    : datetime, functools, io, lxml, pathlib, typing
-#  Klassen           : GPXDataLoader
-# ------------------------------------------------------------------------------
-#  Public Methoden:
-#    GPXDataLoader                                        → Hochperformanter, speicherschonender GPX-Parser auf Basis von lxml.etree.iterparse.
-#      get_tracks()                                       → Gibt alle geladenen Tracks der Datei zurück.
-#      get_routes()                                       → Gibt alle geladenen Routen der Datei zurück.
-#      get_all()                                          → Gibt Tracks und Routen kombiniert zurück.
-# ------------------------------------------------------------------------------
-#  Copyright (C) 2026 <ralfpeter.bergheim@gmail.com>
+#  Programm           : gpx_io.py
+#  Version            : 2.0
+#  Beschreibung       : Keine Beschreibung verfügbar.
+#  Zeilen             : 229
+#  Abhängigkeiten     : dataclasses, datetime, functools, io, math, pathlib, typing
+#  Externe Frameworks : lxml
+#  Eigene Frameworks  : rpg_gpx
+#  Klassen            : GPXDataLoader
 # ------------------------------------------------------------------------------
 
 from __future__ import annotations
